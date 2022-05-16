@@ -1,9 +1,11 @@
-import React from 'react'
+import styles from './Home.module.scss'
 
-function Home() {
+const Home = ({links,me}) => {
   return (
-    <div>Home</div>
+    <section className={styles.section}>
+      
+    </section>
   )
 }
 
-export default Home
+export default HomePage
